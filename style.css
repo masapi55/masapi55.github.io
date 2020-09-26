@@ -1,3 +1,5 @@
+
+
 .f{
   position: relative;
   height: 144px;
@@ -6,7 +8,7 @@
 }
 
 .pc{
-  position: relative;
+  position: absolute;
   transform: translateX(190%)
 }
 
@@ -64,9 +66,9 @@ footer{
 .sidel{
   position: absolute;
   top: 64px;
-  width: 10%;
+  width: 144px;
   background-color: #eeeeeeee;
-  height: 118%;
+  height: 880px;
   z-index: -2;
 }
 
@@ -78,9 +80,9 @@ footer{
 
 .sider{
   position: absolute;
-  right: 0;
+  left: 910px;
   top: 64px;
-  width: 36.4%;
+  width: 527px;
   background-color: #eeeeeeee;
   height: 118%;
   z-index: -2;
